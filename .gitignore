@@ -1,0 +1,6 @@
+# ignore following files
+*.cache
+*.exe
+*.dll
+**/bin/
+**/obj/

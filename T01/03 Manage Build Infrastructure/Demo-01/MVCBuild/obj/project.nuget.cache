@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "puMP5UOysnof5IXGsdv1QIcYYz4iX+Hmm9kdgo0SxQXAsx1ieEz6LqI3L00eTUwMnaGLeGZ4FdTM1Z7E3GeHyQ==",
+  "dgSpecHash": "Uixdwb5yckiril1r6dh4KzB9gWNarPMfkoA4GqYexsGw1Rkk3T6QmhKeqiaTihbVcEODpYvuAEkQDW3G4QLDhg==",
   "success": true,
-  "projectFilePath": "H:\\Classes\\AZ-400\\T01\\03 Manage Build Infrastructure\\Demo-01\\MVCBuild\\MVCBuild.csproj",
+  "projectFilePath": "C:\\Users\\dreuter\\AppData\\Local\\Notebook.rep\\Azure\\AZ-400\\T01\\03 Manage Build Infrastructure\\Demo-01\\MVCBuild\\MVCBuild.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
