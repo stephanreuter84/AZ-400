@@ -52,8 +52,12 @@ New-AzVm `
  -OpenPorts 80,3389
 ```
 
-## Lab
+# Labs
+
+[Using ARM Templates](http://microsoft.github.io/PartsUnlimited/iac/200.2x-IaC-AZ-400T05AppInfra.html)
+
+## Learning Labs
 
 [Provision databases in Azure Pipelines](https://docs.microsoft.com/en-us/learn/modules/provision-database-azure-pipelines/)
 
-[Using ARM Templates](http://microsoft.github.io/PartsUnlimited/iac/200.2x-IaC-AZ-400T05AppInfra.html)
+[Build Azure Resource Manager templates](https://docs.microsoft.com/en-us/learn/modules/build-azure-vm-templates/)

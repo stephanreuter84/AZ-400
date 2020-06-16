@@ -1,17 +1,32 @@
-# Demo Instructions
+# VS Code Function App
 
-Install function tools:
+Install azure-function-tools
 
 ```
-npm install -g azure-functions-core-tools
+npm i -g azure-functions-core-tools
+npm install -g azure-functions-core-tools@3
 ```
+
+> Note: Requires [Node.js](https://nodejs.org/en/)
+
+> Note: Documentaion can be found on [Github](https://github.com/Azure/azure-functions-core-tools) or on [docs.microsoft.com](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=windows%2Ccsharp%2Cbash)
 
 Scaffold Project:
 
 ```
-func init DemoFunctions
-cd DemoFunctions
+func init vscode-functs --dotnet
+cd vscode-functs
 ```
+
+> Note: Choose "yes" in init for VS Code Popup
+
+![init-vscode](../_images/init-vscode.png)
+
+# VS Code Function Apps
+
+Provision required Services:
+
+Create Funtion App in Azure manually or using `create-func-app.azcli`
 
 Create a new Function:
 
@@ -19,22 +34,26 @@ Create a new Function:
 func new --name MyHttpTrigger --template "HttpTrigger"
 ```
 
-> Note: If you leave out the template you will be prompted for it
-
 Run function locally:
+
+```
+func start --build
+```
+
+or use host keyword requried in v1
 
 ```
 func host start --build
 ```
 
-Create Ressources in Azure:
+Execute in another terminal:
+
+```bash
+az rest -m post -u http://localhost:7071/api/MyHttpTrigger -b "{'name':'Azure Rocks'}"
+```
+
+Publish App to Azure using CLI
 
 ```
-az group create --name rf-functionapp-ap --location westeurope
-
-az storage account create --name demofuntionsap --location westeurope --resource-group rf-functionapp-ap --sku Standard_LRS
-
-az functionapp create --resource-group rf-functionapp-ap --consumption-plan-location westeurope --name demofuncitonsap --storage-account demofuntionsap --runtime dotnet
-
-func azure functionapp publish DemoFunctions
+func azure functionapp publish vscodeapp-7179
 ```

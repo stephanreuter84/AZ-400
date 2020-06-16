@@ -10,6 +10,6 @@
 
 [Azure BluePrints](https://docs.microsoft.com/en-us/azure/governance/blueprints/overview)
 
-# Lab
+## Lab
 
 [Implement Security and Compliance in Azure DevOps pipelines](http://microsoft.github.io/PartsUnlimited/iac/200.2x-IaC-SecurityandComplianceinpipeline.html)

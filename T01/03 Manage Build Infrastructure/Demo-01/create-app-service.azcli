@@ -19,4 +19,4 @@ echo "Web Url: http://$web.azurewebsites.net"
 
 # cleanup after demo
 
-az group delete -n $grp -y --no-wait
+# az group delete -n $grp -y --no-wait

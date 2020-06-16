@@ -92,6 +92,8 @@ Add a `.gitignore` file to the root of your project. A valid `.gitignore` file c
 
 ## Refresh from Upstream
 
+> Note: You can use this guide to refresh changes I made during the week to your forked repo
+
 Open Git Bash.
 
 List the current configured remote repository for your fork.
@@ -123,4 +125,5 @@ Fetch from Upstream:
 ```
  git fetch upstream
  git merge upstream/master
+ git push origin master
 ```

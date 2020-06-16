@@ -10,6 +10,6 @@
 
 [Walkthrough: Working with Dashboards](https://docs.microsoft.com/en-us/azure/devops/report/dashboards/add-widget-to-dashboard?view=azure-devops)
 
-[Functional Tests](https://docs.microsoft.com/en-us/learn/modules/run-functional-tests-azure-pipelines/)
-
 [Manage release cadence in Azure Pipelines by using deployment patterns - Blue / Green Deployment](https://docs.microsoft.com/en-us/learn/modules/manage-release-cadence/)
+
+[Automate Docker container deployments with Azure Pipelines](https://docs.microsoft.com/en-us/learn/modules/deploy-docker/)
