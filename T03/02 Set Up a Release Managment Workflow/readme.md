@@ -14,6 +14,12 @@
 
 [CronMaker](http://www.cronmaker.com/)
 
+## Multistage Pipelines
+
+[Multi-stage pipelines user experience](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/multi-stage-pipelines-experience?view=azure-devops)
+
+[Approval & Checks in Multistage Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/approvals?view=azure-devops&tabs=check-pass)
+
 ## Lab
 
 [Using secrets from Azure Key Vault in a pipeline](https://azuredevopslabs.com/labs/vstsextend/azurekeyvault/)

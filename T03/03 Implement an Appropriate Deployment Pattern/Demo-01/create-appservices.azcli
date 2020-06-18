@@ -1,8 +1,8 @@
 rnd=$RANDOM
 grp=az400-T03-bluegreen-$rnd
 loc=westeurope
-appPlanTest=bluegreenB-$rnd
-appPlanProd=bluegreenSlot-$rnd
+appPlanTest=bluegreenB1-$rnd
+appPlanProd=bluegreenP1V2-$rnd
 web=space-game-$rnd
 
 echo "random number generated: $rnd"

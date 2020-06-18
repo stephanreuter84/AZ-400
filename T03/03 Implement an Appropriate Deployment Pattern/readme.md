@@ -6,6 +6,8 @@
 
 [Release Dashboards](https://docs.microsoft.com/en-us/azure/devops/report/dashboards/overview?view=azure-devops)
 
+[Feature Flags](https://docs.microsoft.com/en-us/azure/devops/migrate/phase-features-with-feature-flags?view=azure-devops)
+
 ## Learning Labs
 
 [Walkthrough: Working with Dashboards](https://docs.microsoft.com/en-us/azure/devops/report/dashboards/add-widget-to-dashboard?view=azure-devops)

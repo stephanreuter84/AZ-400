@@ -10,6 +10,8 @@
 
 [Azure BluePrints](https://docs.microsoft.com/en-us/azure/governance/blueprints/overview)
 
+[Locking Ressources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources)
+
 ## Lab
 
 [Implement Security and Compliance in Azure DevOps pipelines](http://microsoft.github.io/PartsUnlimited/iac/200.2x-IaC-SecurityandComplianceinpipeline.html)

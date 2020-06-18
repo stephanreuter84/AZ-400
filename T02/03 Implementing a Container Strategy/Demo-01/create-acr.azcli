@@ -17,11 +17,11 @@ docker run -it --rm -p 5051:80 foodservice
 
 # Execute on local machine - adjust container reg name
 az login
-az acr login --name az400cr21046
-docker tag foodservice az400cr21046.azurecr.io/foodservice
-docker push az400cr21046.azurecr.io/foodservice
+az acr login --name $reg
+docker tag foodservice $reg.azurecr.io/foodservice
+docker push $reg.azurecr.io/foodservice
 
 # Run the image - can run in cloudshell agian
 
-az acr update -n az400cr21046 --admin-enabled true
-az webapp create -g $grp -p $plan -n az400-foodservice -i az400cr21046.azurecr.io/foodservice:latest
+az acr update -n $reg --admin-enabled true
+az webapp create -g $grp -p $plan -n az400-foodservice -i $reg.azurecr.io/foodservice

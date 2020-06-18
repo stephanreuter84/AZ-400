@@ -8,6 +8,8 @@
 - T06 - Implementing Continuous Feedback
 - T07 - Designing a DevOps Strategy
 
+[Azure DevOps Documentation](https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops)
+
 ## Lab Machine Software Requirements
 
 Lab Machine can be Windows, Mac, Linux. The below list is provided for a Windows 10 Machine.
