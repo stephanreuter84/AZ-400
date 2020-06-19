@@ -1,0 +1,12 @@
+rnd=$RANDOM
+grp=az400-t06-featureflags-$rnd
+loc=westeurope
+cfg=featureflags-$rnd
+
+az group create -n $grp -l $loc
+
+az appconfig create -g $grp -n $cfg -l $loc --sku free
+
+az appconfig feature set -n $cfg --feature beta 
+
+az appconfig feature disabley -n $cfg --feature beta 

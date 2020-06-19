@@ -1,5 +1,11 @@
 # AZ-400 - Microsoft Certified: Azure DevOps Engineer Expert
 
+Companion Demo Material for Class Delivery by [Alexander Pajer](https://www.integrations.at/kontakt.aspx)
+
+[Azure DevOps Documentation](https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops)
+
+## Topics
+
 - T01 - Implementing DevOps Development Processes
 - T02 - Implementing Continuous Integration
 - T03 - Implementing Continuous Delivery
@@ -7,8 +13,6 @@
 - T05 - Implementing Application Infrastructure
 - T06 - Implementing Continuous Feedback
 - T07 - Designing a DevOps Strategy
-
-[Azure DevOps Documentation](https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops)
 
 ## Lab Machine Software Requirements
 
@@ -42,16 +46,18 @@ Lab Machine can be Windows, Mac, Linux. The below list is provided for a Windows
 
 > Note: A detailed Setup Guide can be found [here](https://github.com/ARambazamba/ClassSetup)
 
-## Accounts Nedded
+## Cloud Ressources Required
 
-[Github](https://github.com/)
+[Github Account](https://github.com/)
 
-[Azure Devops](https://azure.microsoft.com/en-us/services/devops/?nav=min)
+[Azure Devops Organisation](https://azure.microsoft.com/en-us/services/devops/?nav=min)
 
-Azure Account:
+Azure Tenant:
 
-- Using [Azure Passes](https://www.microsoftazurepass.com/) ... Needs Live ID oder Azure AD Account
-- Azure MSDN Subscription
+- Using [Azure Passes](https://www.microsoftazurepass.com/)
+- Azure Paid / Sponsored Subscription
 - [Azure Trial](https://azure.microsoft.com/en-us/free/)
+
+> Note: Azure Passes can only be used once per e-mail account (Live ID)
 
 > Note: Please do not use a Production Account for Training

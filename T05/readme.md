@@ -11,7 +11,7 @@
 
 ## Module 2 Azure Automation
 
-- Azure Automation
+- Azure Automation Accounts
 - Azure Automation State Configuration (DSC)
 
 ## Module 3 Azure Compute services
@@ -19,7 +19,6 @@
 - Infrastructure as a Service
 - Platform as a Service
 - Serverless and HPC compute services
-- Azure Service Fabric
 - Azure Kubernetes Service
 - Application Architecture models
 - Choosing a Compute Service

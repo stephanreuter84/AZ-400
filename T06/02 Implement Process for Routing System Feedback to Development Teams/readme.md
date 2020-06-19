@@ -16,4 +16,6 @@
 
 [Microsoft Teams with Azure DevOps Services (Collaborate, Communicate and Celebrate)](https://azuredevopslabs.com/labs/vstsextend/teams/)
 
+[Using Microsoft Teams as Your DevOps Hub](https://azuredevopslabs.com/labs/vstsextend/teams-devopshub/)
+
 [Characterize DevOps Continuous Collaboration and Continuous Improvement](https://docs.microsoft.com/en-us/learn/modules/characterize-devops-continous-collaboration-improvement/)
