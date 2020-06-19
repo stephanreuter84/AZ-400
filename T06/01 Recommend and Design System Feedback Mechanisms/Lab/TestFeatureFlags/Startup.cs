@@ -23,6 +23,7 @@ namespace TestFeatureFlags
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc(option => option.EnableEndpointRouting = false);
             services.AddControllersWithViews();
             services.AddFeatureManagement();
         }
@@ -51,6 +52,8 @@ namespace TestFeatureFlags
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
             app.UseAzureAppConfiguration();
+            app.UseMvc();
         }
+
     }
 }
